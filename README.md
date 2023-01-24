@@ -41,6 +41,7 @@ trimal -automated1 -in cpinput.fasta.mafft -out cpinput.fasta.mafft.trimal
 
 source deactivate trimal_env
 
+### Tree construction
 
 mkdir tree_construction
 
@@ -48,9 +49,7 @@ cd tree_construction
 
 cp ../cpinput.fasta.mafft.trimal .
 
-
 source activate iqtree_env
-
 
 iqtree -s cpinput.fasta.mafft.trimal -nt AUTO -bb 1000 -alrt 1000 
 
