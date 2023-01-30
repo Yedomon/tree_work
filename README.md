@@ -91,7 +91,7 @@ CM037030.1
 ## Step 04 I will use vlookup to get the protein sequence ID, then grab them and perform eggNOG and or KoBas-I analyses
 
 
-
+g
 
 
 
