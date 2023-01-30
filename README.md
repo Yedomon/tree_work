@@ -1,13 +1,20 @@
 ## Grab only the genic SSR coordinates from D. alata
 
+```bash
+
 cat alata_genome_out_annotation.tsv | awk '/Genic/ { print }' > genic.ssr.d.alata.txt
+
+```
 
 
 ## Grab only the geneic SSR coordinates from D. roduntada
 
-at rotundata_genome_out_annotation.tsv | awk '/Genic/ { print }' > genic.ssr.d.rodundata.txt
+```bash
 
 
+cat rotundata_genome_out_annotation.tsv | awk '/Genic/ { print }' > genic.ssr.d.rodundata.txt
+
+```
 
 
 ## find genic regions that overlap with microsatellite SSR using python code
