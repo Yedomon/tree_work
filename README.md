@@ -20,21 +20,6 @@ cat rotundata_genome_out_annotation.tsv | awk '/Genic/ { print }' > genic.ssr.d.
 ## find genic regions that overlap with microsatellite SSR using python code
 
 
-### Prepare d.alata and d.rodundata gff file by keeping only sequences chromosomes sequence (mitochondrial or chloroplast genomes are most of the time present in NCBI annotation)
-
-
-
-
-```
-
-cat d_rodundata_genomic.gff | awk '/Genic/ { print }' > genic.ssr.d.rodundata.txt
-
-cat d_alata_genomic.gff
-
-```
-
-
-
 
 
 
