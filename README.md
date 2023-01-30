@@ -20,6 +20,13 @@ cat rotundata_genome_out_annotation.tsv | awk '/Genic/ { print }' > genic.ssr.d.
 ## Step 03 find genic regions that overlap with microsatellite SSR using python code
 
 
+Two inputs are required: `microsatellite_SSR_file.txt` and `genome_annotation_file.gff`
+
+For D. rodundata I prepared the GFF file with only the 20 chromosome sets (NCBI annotation include chloroplast and mitochondrial sequences also)
+For D. alata, I could not since the GFF was to big. In Nota Bene I put the sequences IDs of the 20 chromosomes of interest.
+
+
+Here is the python code to grab the genic SSR with their corresponding Attributes
 
 
 ```python
@@ -52,7 +59,7 @@ print(result[['Start', 'End', 'CDS_ID']])
 
 
 
-NB: D. alata file was heavy I could not prepare the GFF file with only the 20 chromosomes sequences
+NB: D. alata file was heavy I could not prepare the GFF file with only the 20 chromosomes sequences in excel
 
 
 ```
@@ -81,6 +88,7 @@ CM037030.1
 ```
 
 
+## Step 04 I will use vlookup to get the protein sequence ID, then grab them and perform eggNOG and or KoBas-I analyses
 
 
 
