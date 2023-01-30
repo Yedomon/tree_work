@@ -20,6 +20,46 @@ cat rotundata_genome_out_annotation.tsv | awk '/Genic/ { print }' > genic.ssr.d.
 ## find genic regions that overlap with microsatellite SSR using python code
 
 
+
+
+```python
+
+#importing required libraries
+import pandas as pd
+
+#reading SSR file
+SSR = pd.read_csv("microsatellite_SSR_file.txt", sep='\t', header=None)
+SSR.columns = ['Chromosome', 'Start', 'End']
+
+#reading GFF file
+GFF = pd.read_csv("genome_annotation_file.gff", sep='\t', header=None)
+GFF.columns = ['Seqid', 'Source', 'Type', 'Start', 'End', 'Score', 'Strand', 'Phase', 'Attributes']
+
+#filtering CDS regions
+CDS = GFF[GFF['Type'] == 'CDS']
+
+#merging both files based on overlapping regions
+result = pd.merge(CDS, SSR, on=['Chromosome', 'Start', 'End'], how='inner')
+
+#extracting CDS ID
+result['CDS_ID'] = result['Attributes'].str.split(";", expand = True)[0].str.split("=", expand = True)[1]
+
+#returning final result
+print("CDS Position, Start, End and Corresponding CDS ID:")
+print(result[['Start', 'End', 'CDS_ID']])
+
+```
+
+
+
+
+another one
+
+
+
+
+
+
 ```python
 
 
