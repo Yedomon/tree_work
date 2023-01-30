@@ -1,4 +1,4 @@
-## Grab only the genic SSR coordinates from D. alata
+## Step 01 Grab only the genic SSR coordinates from D. alata
 
 ```bash
 
@@ -7,7 +7,7 @@ cat alata_genome_out_annotation.tsv | awk '/Genic/ { print }' > genic.ssr.d.alat
 ```
 
 
-## Grab only the geneic SSR coordinates from D. roduntada
+## Step 02 Grab only the geneic SSR coordinates from D. roduntada
 
 ```bash
 
@@ -17,8 +17,7 @@ cat rotundata_genome_out_annotation.tsv | awk '/Genic/ { print }' > genic.ssr.d.
 ```
 
 
-## find genic regions that overlap with microsatellite SSR using python code
-
+## Step 03 find genic regions that overlap with microsatellite SSR using python code
 
 
 
@@ -50,6 +49,55 @@ print("CDS Position, Start, End and Corresponding CDS ID:")
 print(result[['Start', 'End', 'CDS_ID']])
 
 ```
+
+
+
+NB: D. alata file was heavy I could not prepare the GFF file with only the 20 chromosomes sequences
+
+
+```
+
+CM037011.1
+CM037012.1
+CM037013.1
+CM037014.1
+CM037015.1
+CM037016.1
+CM037017.1
+CM037018.1
+CM037019.1
+CM037020.1
+CM037021.1
+CM037022.1
+CM037023.1
+CM037024.1
+CM037025.1
+CM037026.1
+CM037027.1
+CM037028.1
+CM037029.1
+CM037030.1
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
