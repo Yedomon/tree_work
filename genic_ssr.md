@@ -1,3 +1,12 @@
+# Methodology
+
+
+>> The identified SSRs were classified into genic and non-genic SSRs for D. alata and D. rotuntada for which genome annotations are available. The biological attributes of genomic regions harbouring genic-SSRs were investigated with eggNOGmapper (Cantalapiedra et al., 2021) and KOBAS-i (Bu et al., 2021), respectively. 
+
+
+
+# Code
+
 ## Step 01 Grab only the genic SSR coordinates from D. alata
 
 ```bash
