@@ -88,4 +88,8 @@ CM037030.1
 ```
 
 
-## Step 04 I will use vlookup to get the protein sequence ID, then grab them and perform eggNOG and or KoBas-I analyses
+## Step 04 I will use vlookup to get the protein sequence ID, 
+
+## Step 05 Then grab them using `seqtk subseq` command 
+
+## Step 06 Perform eggNOG and or KoBas-I analyses online
