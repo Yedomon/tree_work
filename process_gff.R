@@ -21,6 +21,7 @@ df_chrom.CDS.ProtID<- df_chrom.CDS %>%
 
 write.csv(df_chrom.CDS.ProtID, "proteinID.txt", row.names = FALSE)
 
+##### BASH commands used to extarct protein sequensces
 ## clean fasta headers
 #cut -f1 -d ' '  d_rodundata_protein.faa > d_rodundata_protein.clean.faa
 
