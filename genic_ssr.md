@@ -1,3 +1,31 @@
+## Clean the fasta file header by keeping only the proteinID
+
+
+```
+
+cat your.file | awk -F' ' '{print $1}' > your_output
+
+
+```
+
+
+## Extract the candidate protein sequences
+
+
+
+```
+
+seqtk subseq your.input.fasta the_header_of_interest_IDs.list > your_output.fasta
+
+```
+
+
+
+
+
+
+
+
 # Methodology
 
 
