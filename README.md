@@ -1,3 +1,42 @@
+Projet amylose ref:
+
+https://scholar.google.com/scholar?q=amylose+content+genetic+basis+tuber&hl=fr&as_sdt=0&as_vis=1&oi=scholart
+
+https://www.mdpi.com/1422-0067/23/9/4640
+
+
+https://www.pnas.org/doi/pdf/10.1073/pnas.2014860117
+
+
+https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-020-02666-z
+
+
+https://www.google.com/search?q=AGPase+gene+maize+amylose&sxsrf=AJOqlzUxP6bb4pzo9pq4dtKsHOlDaAgZmA%3A1678722469184&ei=pUUPZJPmCtmEhbIP4Ly0uAU&ved=0ahUKEwjTzM7DoNn9AhVZQkEAHWAeDVcQ4dUDCA8&uact=5&oq=AGPase+gene+maize+amylose&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCEQoAEQCjoKCAAQRxDWBBCwA0oECEEYAFCcBFjKE2C1FmgBcAF4AIABigKIAb0OkgEDMi04mAEAoAEByAECwAEB&sclient=gws-wiz-serp
+
+
+
+https://www.frontiersin.org/articles/10.3389/fpls.2023.1131975/full
+
+
+
+https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-7652.2004.00073.x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Step 01 Grab only the genic SSR coordinates from D. alata
 
 ```bash
