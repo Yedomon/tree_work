@@ -1,3 +1,8 @@
+
+
+[Genetic diversity and population structure of Uganda’s yam (Dioscorea spp.) genetic resource based on DArTseq](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0277537)
+
+
 Projet amylose ref:
 
 https://scholar.google.com/scholar?q=amylose+content+genetic+basis+tuber&hl=fr&as_sdt=0&as_vis=1&oi=scholart
